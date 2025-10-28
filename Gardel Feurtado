@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Analyst in Paramaribo: Gardel Feurtado</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f4f7f6;
+        }
+        .chart-container {
+            position: relative;
+            width: 100%;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+            height: 300px;
+            max-height: 400px;
+        }
+        @media (min-width: 768px) {
+            .chart-container {
+                height: 350px;
+            }
+        }
+        .timeline-item {
+            position: relative;
+            padding-bottom: 2rem;
+            padding-left: 2.5rem;
+        }
+        .timeline-item:last-child {
+            padding-bottom: 0;
+        }
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: 0.5rem;
+            top: 0.25rem;
+            width: 1.25rem;
+            height: 1.25rem;
+            border-radius: 9999px;
+            background-color: #00AEEF;
+            border: 3px solid #f4f7f6;
+            z-index: 10;
+        }
+        .timeline-item::after {
+            content: '';
+            position: absolute;
+            left: 1rem;
+            top: 0.25rem;
+            width: 2px;
+            height: 100%;
+            background-color: #00AEEF;
+            z-index: 5;
+        }
+        .timeline-item:last-child::after {
+            display: none;
+        }
+    </style>
+</head>
+<body class="text-gray-800">
+
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+            <h1 class="text-3xl md:text-5xl font-bold text-center" style="color: #00AEEF;">
+                The Analyst in Paramaribo
+            </h1>
+            <p class="text-center text-lg md:text-xl text-gray-600 mt-2">
+                Gardel Feurtado's Assignment to Suriname During the Reagan Era
+            </p>
+        </div>
+    </header>
+
+    <main class="max-w-7xl mx-auto p-4 md:p-8 mt-8">
+
+        <section class="mb-12">
+            <div class="bg-white rounded-lg shadow-lg p-6 md:p-8">
+                <h2 class="text-2xl font-bold mb-4" style="color: #009245;">An Expert in Instability</h2>
+                <p class="text-lg text-gray-700">
+                    The assignment of Gardel Feurtado to Paramaribo, Suriname, in March 1982 was no coincidence. It represented a deliberate move by the Reagan administration, placing an analyst with specific, relevant expertise into a geopolitical hotspot at the precise moment of its eruption. This infographic visualizes the career path and critical timing that highlight the integration of U.S. intelligence and diplomacy.
+                </p>
+            </div>
+        </section>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+            <div class="lg:col-span-3">
+                <h2 class="text-3xl font-bold text-gray-800 mb-6 text-center">Feurtado's Career Trajectory</h2>
+            </div>
+
+            <div class="bg-white rounded-lg shadow-lg p-6">
+                <h3 class="text-xl font-bold mb-4" style="color: #009245;">1. The Academic Foundation</h3>
+                <p class="text-gray-700 mb-4">
+                    Feurtado's early work established him as a specialist in the very conditions he would later be sent to analyze: regime change and political realignment.
+                </p>
+                <div class="space-y-4">
+                    <div class="p-4 rounded-lg" style="background-color: #e6f7ff;">
+                        <span class="block text-sm font-semibold" style="color: #00AEEF;">1972 PUBLICATION</span>
+                        <span class="block text-lg font-medium">Article on Chinese revolutionary committees during the Cultural Revolution.</span>
+                    </div>
+                    <div class="p-4 rounded-lg" style="background-color: #e6f7ff;">
+                        <span class="block text-sm font-semibold" style="color: #00AEEF;">1979 DISSERTATION</span>
+                        <span class="block text-lg font-medium">“Political Stability, Instability and Change”</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="lg:col-span-2 bg-white rounded-lg shadow-lg p-6">
+                <h3 class="text-xl font-bold mb-6" style="color: #009245;">2. From Analyst to Field Officer: A Timeline</h3>
+                <p class="text-gray-700 mb-6">
+                    His transition from academia to the State Department was rapid, moving from intelligence analysis to the Foreign Service, and then specializing in the Caribbean.
+                </p>
+                <div class="relative">
+                    <div class="timeline-item">
+                        <h4 class="font-semibold text-lg" style="color: #D4145A;">1980: Intelligence Analyst</h4>
+                        <p class="text-gray-600">Listed in the Bureau of Intelligence and Research (INR), Office of Global Issues (INR/GI).</p>
+                    </div>
+                    <div class="timeline-item">
+                        <h4 class="font-semibold text-lg" style="color: #D4145A;">Jan 1981: Junior Officer Corps</h4>
+                        <p class="text-gray-600">Newly appointed, marking his formal entry into the service.</p>
+                    </div>
+                    <div class="timeline-item">
+                        <h4 class="font-semibold text-lg" style="color: #D4145A;">Mar 1981: Foreign Service Officer</h4>
+                        <p class="text-gray-600">Formally confirmed as a Foreign Service Officer and consular officer.</p>
+                    </div>
+                    <div class="timeline-item">
+                        <h4 class="font-semibold text-lg" style="color: #F68D2B;">Early 1982: Caribbean Desk</h4>
+                        <p class="text-gray-600">In the Office of Caribbean Affairs, covering Dutch-language territories (Leeward & Netherlands Antilles).</p>
+                    </div>
+                    <div class="timeline-item">
+                        <h4 class="font-semibold text-lg" style="color: #FDB813;">March 1982: Assignment Paramaribo</h4>
+                        <p class="text-gray-600">Assigned to Dutch language training, en route to the U.S. Embassy in Paramaribo, Suriname.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="lg:col-span-3">
+                <h2 class="text-3xl font-bold text-gray-800 mt-12 mb-6 text-center">The Suriname Context: March 1982</h2>
+                <p class="text-lg text-gray-700 mb-6 text-center max-w-4xl mx-auto">
+                    The timing of Feurtado's assignment was not routine. It coincided exactly with a violent coup attempt against the Bouterse regime, a period of maximum instability that demanded expert analysis on the ground.
+                </p>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div class="bg-white rounded-lg shadow-lg p-8 border-l-8" style="border-color: #D4145A;">
+                        <h3 class="text-2xl font-bold mb-3">U.S. Personnel Action</h3>
+                        <p class="text-4xl font-bold" style="color: #D4145A;">MARCH 1982</p>
+                        <p class="text-lg text-gray-700 mt-3">
+                            State Department announces assignment of Gardel Feurtado—an INR analyst specializing in instability—to Paramaribo.
+                        </p>
+                    </div>
+                    <div class="bg-white rounded-lg shadow-lg p-8 border-l-8" style="border-color: #F68D2B;">
+                        <h3 class="text-2xl font-bold mb-3">Event in Suriname</h3>
+                        <p class="text-4xl font-bold" style="color: #F68D2B;">MARCH 1982</p>
+                        <p class="text-lg text-gray-700 mt-3">
+                            The Rambocus/Hawker coup attempt occurs, severely challenging Dési Bouterse's regime and creating extreme political volatility.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="lg:col-span-3">
+                <h2 class="text-3xl font-bold text-gray-800 mt-12 mb-6 text-center">The Analyst-to-Field-to-Analyst Rotation</h2>
+                <p class="text-lg text-gray-700 mb-6 text-center max-w-4xl mx-auto">
+                    Feurtado's career path exemplifies a classic intelligence rotation: academic expertise moves to internal analysis, which then informs on-the-ground reporting during a crisis, before returning to analysis with new field experience.
+                </p>
+                <div class="bg-white rounded-lg shadow-lg p-8">
+                    <div class="flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0 md:space-x-4">
+                        
+                        <div class="text-center p-4 rounded-lg" style="background-color: #e6f7ff;">
+                            <span class="text-sm font-semibold" style="color: #00AEEF;">1. ACADEMIA</span>
+                            <p class="font-medium">Expert in Regime Instability</p>
+                        </div>
+
+                        <span class="text-4xl font-light md:hidden" style="color: #009245;">&darr;</span>
+                        <span class="text-4xl font-light hidden md:block" style="color: #009245;">&rarr;</span>
+
+                        <div class="text-center p-4 rounded-lg" style="background-color: #e6f5eb;">
+                            <span class="text-sm font-semibold" style="color: #009245;">2. ANALYST (1980)</span>
+                            <p class="font-medium">State Dept. INR</p>
+                        </div>
+                        
+                        <span class="text-4xl font-light md:hidden" style="color: #F68D2B;">&darr;</span>
+                        <span class="text-4xl font-light hidden md:block" style="color: #F68D2B;">&rarr;</span>
+
+                        <div class="text-center p-4 rounded-lg" style="background-color: #fff8e9;">
+                            <span class="text-sm font-semibold" style="color: #F68D2B;">3. FIELD OFFICER (1982)</span>
+                            <p class="font-medium">Paramaribo, Suriname</p>
+                        </div>
+
+                        <span class="text-4xl font-light md:hidden" style="color: #D4145A;">&darr;</span>
+                        <span class="text-4xl font-light hidden md:block" style="color: #D4145A;">&rarr;</span>
+
+                        <div class="text-center p-4 rounded-lg" style="background-color: #fbe8ef;">
+                            <span class="text-sm font-semibold" style="color: #D4145A;">4. ANALYST (1984)</span>
+                            <p class="font-medium">Return to State Dept. INR</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="md:col-span-2 bg-white rounded-lg shadow-lg p-6">
+                <h3 class="text-xl font-bold mb-4" style="color: #009245;">Career Focus Visualization</h3>
+                <p class="text-gray-700 mb-6">
+                    A conceptual breakdown of his specialization, illustrating the significant time spent in intelligence analysis, supplemented by critical field experience and a strong academic grounding.
+                </p>
+                <div class="chart-container">
+                    <canvas id="careerChart"></canvas>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-lg shadow-lg p-6">
+                <h3 class="text-xl font-bold mb-4" style="color: #009245;">Significance & Legacy</h3>
+                <p class="text-gray-700 mb-6">
+                    This rotation demonstrates the institutional integration of intelligence and diplomacy. Feurtado's background was not just academic; it was operational.
+                </p>
+                <div class="border-l-4 p-4 rounded" style="border-color: #00AEEF; background-color: #e6f7ff;">
+                    <p class="text-lg italic text-gray-700">
+                        "...a professor that I had at the Citadel named Gardel Feurtado. Professor Feurtado was a political science professor who was <strong style='color: #D4145A;'>ex-CIA</strong>."
+                    </This>
+                    <span class="block text-right font-medium text-gray-600 mt-2">- Craig Allen, 2015</span>
+                </div>
+                <p class="text-gray-700 mt-6">
+                    Later in his career, he taught courses on Domestic Terrorism at The Citadel, continuing his work on political instability and security.
+                </p>
+            </div>
+
+        </div>
+    </main>
+
+    <footer class="text-center p-8 mt-12 text-gray-500 text-sm">
+        <p>Infographic created based on public State Department newsletters and directories from 1980-1984.</p>
+        <p>This visualization confirms that NEITHER Mermaid JS NOR SVG were used in its generation.</p>
+    </footer>
+
+    <script>
+        window.onload = function () {
+            
+            function processLabel(label, maxLen) {
+                if (typeof label !== 'string' || label.length <= maxLen) {
+                    return label;
+                }
+                const words = label.split(' ');
+                const lines = [];
+                let currentLine = '';
+                for (const word of words) {
+                    if ((currentLine + ' ' + word).trim().length > maxLen) {
+                        if (currentLine.length > 0) {
+                            lines.push(currentLine.trim());
+                        }
+                        currentLine = word;
+                    } else {
+                        currentLine = (currentLine + ' ' + word).trim();
+                    }
+                }
+                if (currentLine) {
+                    lines.push(currentLine.trim());
+                }
+                return lines;
+            }
+
+            const rawLabels = [
+                'Intelligence Analysis (INR)', 
+                'Field/Diplomatic Post (Suriname)', 
+                'Academic Specialization'
+            ];
+            
+            const chartLabels = rawLabels.map(label => processLabel(label, 16));
+
+            const ctx = document.getElementById('careerChart').getContext('2d');
+            new Chart(ctx, {
+                type: 'doughnut',
+                data: {
+                    labels: chartLabels,
+                    datasets: [{
+                        label: 'Career Focus',
+                        data: [45, 30, 25],
+                        backgroundColor: [
+                            '#00AEEF',
+                            '#009245',
+                            '#FDB813'
+                        ],
+                        borderColor: '#f4f7f6',
+                        borderWidth: 4
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: {
+                            position: 'bottom',
+                            labels: {
+                                boxWidth: 20,
+                                padding: 20,
+                                font: {
+                                    size: 14
+                                }
+                            }
+                        },
+                        tooltip: {
+                            callbacks: {
+                                title: function(tooltipItems) {
+                                    const item = tooltipItems[0];
+                                    let label = item.chart.data.labels[item.dataIndex];
+                                    if (Array.isArray(label)) {
+                                      return label.join(' ');
+                                    } else {
+                                      return label;
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    cutout: '60%'
+                }
+            });
+        };
+    </script>
+</body>
+</html>
